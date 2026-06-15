@@ -1,14 +1,17 @@
-import React from 'react'
-import AboutUsBanner from './AboutUsBanner'
-import TeamSection from './TeamSection'
+import AboutUsBanner from "./AboutUsBanner";
+import PhilosophySection from "./PhilosophySection";
+import EdgeSection from "./EdgeSection";
+import TeamSection from "./TeamSection";
 
 const AboutView = () => {
   return (
-    <div>
+    <div className="bg-background select-none">
       <AboutUsBanner />
+      <PhilosophySection />
+      <EdgeSection />
       <TeamSection />
     </div>
-  )
-}
+  );
+};
 
-export default AboutView
+export default AboutView;
